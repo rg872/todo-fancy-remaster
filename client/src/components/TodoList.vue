@@ -16,7 +16,11 @@
       </div>
     </v-ons-toolbar>
 
-    <v-ons-pull-hook :action="loadItem"></v-ons-pull-hook>
+    <v-ons-pull-hook :action="loadItem" @changestate="state = $event.state">
+        <span v-show="state === 'initial'"> Pull to refresh </span>
+        <span v-show="state === 'preaction'"> Release </span>
+        <span v-show="state === 'action'"> Loading... </span>
+    </v-ons-pull-hook>
     <v-ons-list>
       <v-ons-list-item v-for="(todo, index) in todos" :key="index">
         <div class="left">
@@ -69,6 +73,7 @@ import { mapState } from 'vuex'
 export default {
     data () {
         return {
+            state: 'initial',
             todoName: '',
             todoDesc: '',
             modalVisible: false,
@@ -104,15 +109,17 @@ export default {
             localStorage.removeItem('token')
             this.$store.commit('changePage', register)
         },
-        loadItem () {
+        loadItem (done) {
             this.modalVisible = true
             this.$store.dispatch('getTodos')
             .then(() => {
                 this.modalVisible = false
+                done()
             })
             .catch((err) => {
                 this.modalVisible = false
                 this.$ons.notification.alert(err.message)
+                done()
             })
         },
         createTodo () {
@@ -121,6 +128,7 @@ export default {
                 name: this.todoName,
                 description: this.todoDesc
             }
+            this.todoDesc = this.todoName = ''
             this.$store.dispatch('createTodo', todo)
             .then(() => {
                 this.modalVisible = false
