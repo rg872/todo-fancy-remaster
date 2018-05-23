@@ -1,0 +1,15 @@
+PLAYER
+rookie
+https://storage.googleapis.com/todo-fancy/rookie.png
+advance
+https://storage.googleapis.com/todo-fancy/advance.png
+master
+https://storage.googleapis.com/todo-fancy/master.png
+
+ENEMY
+orc
+https://storage.googleapis.com/todo-fancy/orc.jpg
+golem
+https://storage.googleapis.com/todo-fancy/golem.jpg
+reaper
+https://storage.googleapis.com/todo-fancy/reaper.png

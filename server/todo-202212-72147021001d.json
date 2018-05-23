@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "todo-202212",
+  "private_key_id": "72147021001d394f5c2a1bb8f7f1c99cb38ac5b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC2S3ueN6uDXQn3\nb2L3FbNJqGUxb3lYyyWIlUAwpA+fP4mT1fkKF4i+fxY7lJci19zGNd6Egzwk7bRu\nD5wT5gabQ1UfzDdnDrBJ1tVAabb6Gk1E0Agp/VjPilfTORZxQ3ZvSK7gQNzqf0uk\nyb7Wzbo9oU66N0dbjAG45H2WwUZAxsEIF/eDm7uW5KNIOXYq2eabtskaGn4YWEkd\nIvKPaxm70BzJAaO4oey2bK8nzRBxzng1b462altpkh2VnfQ9KWB7nm4yvVrqoFaG\nhXLHVh4WKHuCKVVJ34FNyyyZKbwQVH0VFa45qzKDHkZKo6k1qI8pELw7VuJXT9iP\npEszYQQ9AgMBAAECggEABaRF5eJirjzXpV7+4Nc81nt98D77Mi6NUZIO68J0ElFg\n1GCzpaaPTpf3y+3AFK26ES9THOZD2v+5TQuyIKKGk1EM5iBHmaqodYyOyoDLDyf3\nuri2e/gxgrDNIYYbhfNYy75j3SBcxewdHvM4cwTobeZbXaN+05w8ZGi740nFfxUq\nPgqRzISyzrZbnfmes+nI1k15Dkiy+CHGxTQjox612ZSm1c5YhCj7EE5D9fqtMK9U\nG2vSheazMLsl+07mvudGEEPALJzt+mHNqAW+o3zP0DJdp2EemcgqUWZaq7BSDqOW\nZqM1N5UXtxbUA1nuOuiFGPKb+ZNpjArim3I/akoLWQKBgQDb+Zh3EYqCrYgOmjMD\nknCg0k20RjGern3Sup3lAfRxXs3Kg0BHes4/cLNXNQXCRN5pYMDA6cBwkjlnd70B\nXQ3P2MhS5zwRrEToX1o+6iRoaSPIH4Ao/cHlI+sX/EbjfLi3Xlsr1mvf3tKg8aOH\n63VGTTJkaLJNqc/xRgg8FdCOBQKBgQDUJiftXCMqyVg/cPANng+gdnpsK1B/IZAi\nAtvIw1iPBSFRfSxiJDSFMZ0p2SOcoxMcBUD4bsL1vHN5YVMzNSz0oHYwdBovzZQA\nlkCbjb8pQhb9UVWmvY0kT+h3Dou5oH71TQIHmtamtgYGMlqF15haL66kih0iXLqr\nk5dX6BW62QKBgB1W0/wFjejSBlSUQnuWe4kno4+I0TNt6IBDva1+rkC0uVPqX5dp\nDLsvZ+wYuVTo5JU/f1X7l1wsVJW1RbM52w6+xjEwgDWHOYWYuiusBQEcDNazRN+y\nwLq0KLYBQt8yklx6rERTi/3G9Wbb88i8Id8nirITuLxdCswOYCjLbA6VAoGAc1CW\nLWACwZQWAs35vf0nk1ozKy7UH3Z36PTS0KrWLU9lj+zRPjtdzPRt8DxWLiM6FOYK\nLb/O+1HHFrg/SDtkR0gdVjMVtNwy0araTXNb8Co7YtBeFTc9S/qfam+epXTG7cFB\nFC8m9BFG7wFZ0RyidIssi8WDFpV+5hpgjmjZvukCgYAaEu9+T702mUG0w4V7fchw\n2mCu4iIB/BFKY/n/+SumXpe/qoeg0kGbDX3PKq6jgIuDOeoxxVxmCoZXQn1SaM0X\nzOu0HhZ+S1hiRQbI/r0DlRxNUKpMDssLKWDBUmn9CLVkE8AdFTLLbltsGYzkiH7h\ngGqXaBtjGdid6nHXF0H/hA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "rafie-gilang@todo-202212.iam.gserviceaccount.com",
+  "client_id": "106794253589390949475",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rafie-gilang%40todo-202212.iam.gserviceaccount.com"
+}
